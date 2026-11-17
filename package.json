@@ -1,0 +1,28 @@
+{
+  "name": "aierc-wallet-guard-insight",
+  "version": "0.1.0",
+  "description": "AIERC determination on the MetaMask confirmation screen: the operation, the counterparty's record, and the determination with its facts, before you sign. Insight only \u2014 no accounts, no keys.",
+  "license": "BUSL-1.1",
+  "private": false,
+  "main": "./dist/bundle.js",
+  "files": [
+    "dist/",
+    "images/",
+    "snap.manifest.json"
+  ],
+  "scripts": {
+    "build": "mm-snap build",
+    "build:clean": "rimraf dist && mm-snap build",
+    "manifest": "mm-snap manifest --fix",
+    "serve": "mm-snap serve",
+    "start": "mm-snap watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@metamask/snaps-cli": "^7.0.2",
+    "@metamask/snaps-sdk": "^7.0.0",
+    "prettier": "^3.8.1",
+    "rimraf": "^6.0.0",
+    "typescript": "^5.7.0"
+  }
+}

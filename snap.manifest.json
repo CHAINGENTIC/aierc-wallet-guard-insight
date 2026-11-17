@@ -1,0 +1,27 @@
+{
+  "version": "0.1.0",
+  "description": "AIERC determination on the MetaMask confirmation screen: the operation, the counterparty's record, and the determination with its facts, before you sign. Insight only — no accounts, no keys.",
+  "proposedName": "AIERC Wallet Guard Insight",
+  "source": {
+    "shasum": "U5OUAQBh8EV8W89ZEVP1imtE5twAJ5S7XPzd3zLnYAM=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "images/icon.svg",
+        "packageName": "aierc-wallet-guard-insight",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "endowment:transaction-insight": {
+      "allowTransactionOrigin": true
+    },
+    "endowment:signature-insight": {
+      "allowSignatureOrigin": true
+    },
+    "endowment:network-access": {}
+  },
+  "platformVersion": "7.1.0",
+  "manifestVersion": "0.1"
+}
